@@ -4,9 +4,9 @@
     "C_Cpp.intelliSenseEngine": "default",
     "idf.espIdfPathWin": "d:\\Program_App\\Espressif\\frameworks\\esp-idf-v5.3.1",
     "idf.openOcdConfigs": [
-        "board/esp32s3-builtin.cfg"
-    ],
-    "idf.portWin": "COM8",
+		"board/esp32s3-builtin.cfg"
+	],
+    "idf.portWin": "COM10",
     "idf.toolsPathWin": "d:\\Program_App\\Espressif\\tools",
     "files.associations": {
         "freertos.h": "c",
