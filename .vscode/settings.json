@@ -1,4 +1,6 @@
 {
+
+
     "C_Cpp.intelliSenseEngine": "default",
     "idf.espIdfPathWin": "d:\\Program_App\\Espressif\\frameworks\\esp-idf-v5.3.1",
     "idf.openOcdConfigs": [
@@ -10,5 +12,13 @@
         "freertos.h": "c",
         "task.h": "c"
     },
-    "idf.flashType": "UART"
+    "idf.flashType": "UART",
+
+
+    "editor.insertSpaces": false, /* 自动插入空格禁用*/ 
+    "editor.detectIndentation": false, /* 启用时根据文件内容进行重写*/ 
+    "editor.renderControlCharacters": true, /* 是否显示控制字符：启用*/ 
+    "editor.renderWhitespace": "all", /* 显示 4 个空格是.... */ 
+    "editor.tabSize": 4, /* tab 设置为 4 个空格*/ 
+    "editor.fontSize": 16, /* 代码字体大小*/ 
 }

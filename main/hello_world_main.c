@@ -64,6 +64,4 @@ void app_main(void)
         gpio_set_level(GPIO_NUM_48, 0);
         vTaskDelay(20 / portTICK_PERIOD_MS);
     }
-
-
 }
