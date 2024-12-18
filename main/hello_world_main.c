@@ -47,4 +47,18 @@ void app_main(void)
     // 打印最小空闲堆大小
     printf("最小空闲堆大小：%" PRIu32 " 字节\n", esp_get_minimum_free_heap_size());
 
+
+    gpio_reset_pin(GPIO_NUM_48);
+    gpio_set_direction(GPIO_NUM_48, GPIO_MODE_OUTPUT);
+
+    while (true)
+    {
+        gpio_set_level(GPIO_NUM_48, 1);
+        vTaskDelay(1 / portTICK_PERIOD_MS);
+        gpio_set_level(GPIO_NUM_48, 0);
+        vTaskDelay(1 / portTICK_PERIOD_MS);
+    } 
+
+
+
 }
